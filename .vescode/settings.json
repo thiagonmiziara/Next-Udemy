@@ -1,0 +1,9 @@
+{
+  "window.zommLevel": 5,
+  "editor.fontSize":18,
+  "terminal.integrated.fontSize": 16,
+  "editor.formatOnSave": false,
+  "editor.condeActionsOnSave":{
+    "source.fixAll.eslint":true
+  }
+}
