@@ -8,8 +8,8 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>React Avançado</title>
-        <link rel="shortcut icon" href="/img/icon-512.png" />
-        <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="shortcut icon" href="/img/icon-192.png" />
+        <link rel="apple-touch-icon" href="/img/icon-192.png" />
         <meta
           name="description"
           content="A simple project starter to work with Typescript, React, NextJS an Styled Components"
