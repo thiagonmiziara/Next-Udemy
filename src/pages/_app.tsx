@@ -10,13 +10,15 @@ function App({ Component, pageProps }: AppProps) {
         <title>React Avançado</title>
         <link rel="shortcut icon" href="/img/icon-192.png" />
         <link rel="apple-touch-icon" href="/img/icon-192.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#06092b" />
         <meta
           name="description"
           content="A simple project starter to work with Typescript, React, NextJS an Styled Components"
         />
       </Head>
       <GlobalStyles />
-      <Component {...pageProps} />)
+      <Component {...pageProps} />
     </>
   )
 }
